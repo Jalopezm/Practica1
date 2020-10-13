@@ -50,7 +50,6 @@ input text{
 
 /* Fes que els <p>'s dins el 3r <div> tinguin fons rosa*/
 
-
 /* Fes que el 2n <p> dins el  3r  <div> tingui un border de 5px blanc*/
 
 
@@ -62,15 +61,27 @@ input text{
 /*hauràs de fer recerca*/
 
 /*Fes que tots el "checked" checkboxes tinguin un marge esquerra de 50px(margin-left: 50px)*/
-
+input :checked{
+    margin-left: 50px;
+}
 
 /*Fes que l'etiqueta <label> siguin tots UPPERCASE sense canviar el HTML*/
-
+label{
+    text-transform: uppercase;
+}
 
 /*Fes que la primera lletra de l'element amb id 'special' sigui verda i amb font de 100px font size(font-size: 100)*/
-
+#special ::first-letter{ 
+    color: green;
+    font-size: 100px;
+}
 
 /*Fes que el color de font del <h1> canviï a blau quan el ratolí passi per damuntelement's color change to blue when hovered over */
-
+h1:hover{
+    color: blue;
+}
 
 /*Fes que els <a> que hagin estat visitats siguin de color gris */
+a:active{
+    color: gray;
+}
