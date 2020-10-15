@@ -49,12 +49,19 @@ input text{
 }
 
 /* Fes que els <p>'s dins el 3r <div> tinguin fons rosa*/
-
+div:nth-of-type(3) p{
+    background-color: pink;
+}
 /* Fes que el 2n <p> dins el  3r  <div> tingui un border de 5px blanc*/
-
+div:nth-of-type(3) p:nth-of-type(2){
+border:5px solid white;
+}
 
 /* Fen que l'element <em> del 3r <div> sigui blanc amb una font de 20px (font-size:20px)*/
-
+em div:nth-of-type(3){
+    font-size: 20px;
+    color: white;
+}
 
 
 /*BONUS*/
