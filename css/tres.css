@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+table{
+    margin: 0 auto 0 auto;
+}
+th{
+    width: 200px; 
+    height: 200px;
+}
+.uno{
+ border-right: 2px solid black;
+ border-left: 2px solid black;
+}
+.centro{
+    border: 2px solid black;
+}
+.abajo{
+    border:2px solid black;
+    border-right: hidden;
+    border-top: 2px solid black;
+    border-left: hidden;
+}
